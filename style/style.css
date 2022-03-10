@@ -37,6 +37,7 @@ header{
 }
 
 img{
+    
     margin: auto;
     padding: 2px;
     width: 20px;
@@ -46,6 +47,7 @@ img{
 
 
 .logo{
+    
     margin: auto;
     border-image: none;
     padding-left: 10px;
@@ -60,13 +62,13 @@ img{
     margin: auto;
     list-style: none;
     padding: 0;
-    display: inline-block;
     float: right;
 
 
 }
 
 li{
+    
     margin: auto;
     display: inline-block;
     margin-right: 15px;
@@ -89,8 +91,8 @@ table{
     border-collapse: separate;
     border-spacing: 85px 5px;
     margin: 0 0 0 0;
-    border
 }
+
 td{
 padding: 5px;
     
@@ -102,11 +104,17 @@ table.tabela{
     background: #fffff0;
     border: solid grey 1px;
 }
-
-table.tabela tr:nth-child(even){
-background: #f0ffff;
+tbody{
+ 
+    text-align: center
 }
 
+/*
+table.tabela tr:nth-child(even){
+background: 
+}
+*/
 footer{
+    margin-top: 10px;
     text-align: center;
 }
