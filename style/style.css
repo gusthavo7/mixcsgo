@@ -12,6 +12,11 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .links{
     text-decoration: none;
     color: black;
@@ -116,6 +121,7 @@ background:
 }
 */
 footer{
+    font-style: italic;
     margin-top: 10px;
     text-align: center;
 }
