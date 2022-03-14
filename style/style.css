@@ -22,7 +22,7 @@ a{
     color: black;
 }
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     
     
@@ -40,6 +40,8 @@ header{
     font-size: 20px
 
 }
+
+
 
 img{
     
@@ -79,9 +81,12 @@ li{
     display: inline-block;
     margin-right: 15px;
 }
-.ranking{
-    margin: auto;
-    
+
+
+th{
+    padding: 5px;
+    margin: 5px;
+
 }
 
 section{
