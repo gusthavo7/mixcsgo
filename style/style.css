@@ -23,6 +23,9 @@ a{
 }
 .container{
     max-width: 1200px;
+    width: 100%;
+    height: 100%;
+   
     margin: auto;
     
     
@@ -60,9 +63,6 @@ img{
     border-image: none;
     padding-left: 10px;
     display: inline-block;
-  
-
-    
 
 }
 
@@ -86,6 +86,7 @@ li{
 th{
     padding: 5px;
     margin: 5px;
+    
 
 }
 
@@ -94,14 +95,22 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: dimgray ;
+   
     
     
 }
 
 table{
+    
     border-collapse: separate;
-    border-spacing: 85px 5px;
-    margin: 0 0 0 0;
+    border-spacing: 70px 7px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+thead{
+    padding-left: 45px;
+    tex
 }
 
 td{
@@ -110,13 +119,15 @@ padding: 5px;
 }
 
 table.tabela{
+  
     position: relative;
-    display: block;
+    text-align: center;
+    display: grid;
     background: #fffff0;
     border: solid grey 1px;
 }
 tbody{
- 
+    margin: auto;
     text-align: center
 }
 
